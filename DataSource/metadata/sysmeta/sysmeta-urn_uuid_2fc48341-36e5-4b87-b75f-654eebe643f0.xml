@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>urn:uuid:2fc48341-36e5-4b87-b75f-654eebe643f0</identifier>
+    <formatId>text/csv</formatId>
+    <size>818940</size>
+    <checksum algorithm="MD5">78d50641f7810083149e9537a80f05404ddb6155</checksum>
+    <submitter>http://orcid.org/0000-0003-4703-1974</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0002-8125-1463</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0"/>
+    <obsoletedBy>urn:uuid:b560aa1b-7635-42df-8811-6488f1821fe8</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-03-31T16:37:12.649+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-01T14:15:12.360+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>PlotData.csv</fileName>
+</ns3:systemMetadata>

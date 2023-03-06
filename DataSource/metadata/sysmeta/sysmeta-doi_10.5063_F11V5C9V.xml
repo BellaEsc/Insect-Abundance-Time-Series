@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>2</serialVersion>
+    <identifier>doi:10.5063/F11V5C9V</identifier>
+    <formatId>eml://ecoinformatics.org/eml-2.1.1</formatId>
+    <size>88855</size>
+    <checksum algorithm="SHA1">8b8367b81bb92c1d5cb02baee2eaef8eb7f3f347</checksum>
+    <submitter>http://orcid.org/0000-0003-4703-1974</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-8125-1463</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=knb-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0">
+        <blockedMemberNode>urn:node:KNB</blockedMemberNode>
+        <blockedMemberNode>urn:node:mnUCSB1</blockedMemberNode>
+    </replicationPolicy>
+    <obsoletes>urn:uuid:b768975a-4202-4a0b-868d-01d462518b9e</obsoletes>
+    <obsoletedBy>urn:uuid:e2501439-4af9-438f-8bae-abeef1459727</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-04-08T15:43:46.219+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-01T14:15:11.374+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>A_global_database_of_long_term_changes_in_insect.xml</fileName>
+</ns3:systemMetadata>

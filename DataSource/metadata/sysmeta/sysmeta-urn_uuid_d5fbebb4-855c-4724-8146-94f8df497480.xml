@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>urn:uuid:d5fbebb4-855c-4724-8146-94f8df497480</identifier>
+    <formatId>text/csv</formatId>
+    <size>3336200</size>
+    <checksum algorithm="MD5">ca5f908ea789bf367d1ff1f0b2328a14ea93d125</checksum>
+    <submitter>http://orcid.org/0000-0003-4703-1974</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-8125-1463</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0"/>
+    <obsoletedBy>urn:uuid:aa502285-a2d6-4493-bf42-d1ac69a77136</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-03-31T16:37:12.384+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-01T14:15:34.233+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>InsectAbundanceBiomassData.csv</fileName>
+</ns3:systemMetadata>

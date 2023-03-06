@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>resource_map_doi:10.5063/F11V5C9V</identifier>
+    <formatId>http://www.openarchives.org/ore/terms</formatId>
+    <size>12719</size>
+    <checksum algorithm="SHA1">429818c0eb5928feeb618f4283be1f7de432871f</checksum>
+    <submitter>http://orcid.org/0000-0003-4703-1974</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-8125-1463</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=knb-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0">
+        <blockedMemberNode>urn:node:KNB</blockedMemberNode>
+        <blockedMemberNode>urn:node:mnUCSB1</blockedMemberNode>
+    </replicationPolicy>
+    <obsoletes>resource_map_urn:uuid:085edba1-327c-4cd3-a1af-99c9307fe88b</obsoletes>
+    <obsoletedBy>resource_map_urn:uuid:9edc445d-5c15-4bd0-8934-46ed76380437</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-04-08T15:43:51.093+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-01T14:15:38.693+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>resource_map_urn_uuid_085edba1_327c_4cd3_a1af_99c9307fe88b.rdf.xml</fileName>
+</ns3:systemMetadata>

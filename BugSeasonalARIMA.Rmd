@@ -1,0 +1,83 @@
+---
+title: "Insect Abundance Seasonal ARIMA"
+author: "Isabella Escamilla"
+output:
+    html_document:
+      toc: true
+      toc_float: true
+      code_folding: show
+---
+
+```{r, include=FALSE}
+library(dplyr)
+library(astsa)
+library(MASS)
+library(reshape2)
+library(reshape)
+library(tidyverse)
+```
+
+## Introduction
+The goal of this analysis is to create a seasonal ARIMA model of the insect abundance data set. First, I will import the data and make any modifications necessary.
+
+```{r}
+dataloc <- './DataSource/data/InsectAbundanceBiomassData.csv'
+data <- read.csv(dataloc)
+summary(data)
+```
+
+There's a lot of data from different sources, so we will choose one data source to examine for now to avoid inconsistencies. We will be look at the grasslands butterflies in Wisconsin.
+
+```{r}
+data2 <- data %>% filter(DataSource_ID == 1476)
+head(data2)
+```
+
+The months are inconsistent and won't work as a time series object, so we will aggregate by year.
+
+```{r}
+agg_tbl <- data2 %>% group_by(Year) %>% 
+  summarise(mean_num=mean(Number),
+            .groups = 'drop')
+agg_tbl
+```
+1987 appears to be an outlier, we will drop it for now.
+
+```{r}
+agg_tbl <- agg_tbl[agg_tbl$Year != 1987,]
+```
+
+Now we can turn it into a time series.
+
+```{r}
+butterfly_ts <- ts(agg_tbl$mean_num, start = 1988, end = 2017)
+plot.ts(butterfly_ts)
+```
+
+We can see that the time series needs to be detrended.
+
+```{r}
+diff <- diff(butterfly_ts)
+plot.ts(diff)
+```
+
+Now we'll look at the ACF.
+
+```{r}
+acf2(diff)
+```
+
+Both the ACF and PACF cut off after lag 0, indicating that this likely follows a white noise model. This means that p and q are equal to zero, and d is equal to 1 since we took the first difference.
+
+```{r}
+sarima(butterfly_ts, 0, 1, 0, 0, 0, 0)
+```
+
+The model's estimate is significant, so we will try making predictions for the next 6 years.
+
+```{r}
+sarima.for(butterfly_ts, 6, 0, 1, 0, 0, 0, 0)
+```
+
+### Questions
+One of the reasons I chose this data set was because it included months/seasons, but I'm not sure what to do when it doesn't include every month and it's inconsistent on which months it includes. I would like to use that information so I could fit an actual SARIMA model, but I'm not sure how.

@@ -1,0 +1,7 @@
+ad6971b3c7c196e105bc5711d652dc0e data/Google_Earth_locations_of_all_datasets.kml
+2513a3b0fce879eef2f2a228dde88ea1 data/PlotData.csv
+299e3a63d9b8c8d2d0302abe5dbcd52b data/References_to_original_data_sources.pdf
+b55a4cfe14e0dd5b2508b24e59c57bf2 data/InsectAbundanceBiomassData.csv
+087563bf25c3ea9cbd124fd97af3bbc0 data/ReadMe.docx
+8106974fee871582f7333b27e2e2d6a3 data/DataSources.csv
+85bd098a7c8dc388d6e856f325c33ad1 data/SampleData.csv

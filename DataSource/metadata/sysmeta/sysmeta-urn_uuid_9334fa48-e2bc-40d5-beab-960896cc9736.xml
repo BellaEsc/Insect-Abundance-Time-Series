@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>urn:uuid:9334fa48-e2bc-40d5-beab-960896cc9736</identifier>
+    <formatId>application/pdf</formatId>
+    <size>141460</size>
+    <checksum algorithm="MD5">299e3a63d9b8c8d2d0302abe5dbcd52b</checksum>
+    <submitter>http://orcid.org/0000-0003-4703-1974</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-8125-1463</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=knb-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0"/>
+    <obsoletedBy>urn:uuid:b9b35511-2901-4bc5-8ae6-768211bc1446</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-03-16T17:46:06.930+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-15T08:32:25.434+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>References_to_original_data_sources.pdf</fileName>
+</ns3:systemMetadata>

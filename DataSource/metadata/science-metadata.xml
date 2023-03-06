@@ -1,0 +1,1717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="doi:10.5063/F11V5C9V" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd" system="knb">
+  <dataset>
+    <title>A global database of long-term changes in insect assemblages</title>
+    <creator id="9205330031777068">
+      <individualName>
+        <givenName>Roel</givenName>
+        <surName>van Klink</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5E</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>roel.vanklink@gmail.com</electronicMailAddress>
+      <onlineUrl>https://www.idiv.de/en/groups_and_people/employees/details/788.html</onlineUrl>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8125-1463</userId>
+    </creator>
+    <creator id="1581409002140436">
+      <individualName>
+        <givenName>Diana E.</givenName>
+        <surName>Bowler</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5E</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>diana.bowler@idiv.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7775-1668</userId>
+    </creator>
+    <creator id="1366890824947696">
+      <individualName>
+        <givenName>Jonathan M.</givenName>
+        <surName>Chase</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5E</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>jonathan.chase@idiv.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-5580-4303</userId>
+    </creator>
+    <creator id="4295841630547001">
+      <individualName>
+        <givenName>Orr</givenName>
+        <surName>Comay</surName>
+      </individualName>
+      <organizationName>Tel Aviv University</organizationName>
+      <address>
+        <deliveryPoint>Haim Lebanon</deliveryPoint>
+        <city>Tel Aviv</city>
+        <postalCode>6997801</postalCode>
+        <country>Israel</country>
+      </address>
+      <electronicMailAddress>orrcomay@tauex.tau.ac.il</electronicMailAddress>
+    </creator>
+    <creator id="3542059973683096">
+      <individualName>
+        <givenName>Michael M.</givenName>
+        <surName>Driessen</surName>
+      </individualName>
+      <organizationName>Government of Tasmania</organizationName>
+      <address>
+        <deliveryPoint>PO Box 44</deliveryPoint>
+        <city>Hobart</city>
+        <administrativeArea>Tasmania</administrativeArea>
+        <postalCode>7001</postalCode>
+        <country>Australia</country>
+      </address>
+      <electronicMailAddress>Michael.Driessen@dpipwe.tas.gov.au</electronicMailAddress>
+    </creator>
+    <creator id="9838302879899436">
+      <individualName>
+        <givenName>S.K. Morgan</givenName>
+        <surName>Ernest</surName>
+      </individualName>
+      <organizationName>University of Florida</organizationName>
+      <address>
+        <deliveryPoint>110 Newins-Ziegler Hall</deliveryPoint>
+        <city>Gainesville</city>
+        <administrativeArea>Florida</administrativeArea>
+        <postalCode>32611</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>skmorgane@ufl.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6026-8530</userId>
+    </creator>
+    <creator id="1795446832558573">
+      <individualName>
+        <givenName>Alessandro</givenName>
+        <surName>Gentile</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5E</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>alessandro.gentile@idiv.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-3016-7675</userId>
+    </creator>
+    <creator id="6900068933620237">
+      <individualName>
+        <givenName>Francis</givenName>
+        <surName>Gilbert</surName>
+      </individualName>
+      <organizationName>University of Nottingham</organizationName>
+      <address>
+        <deliveryPoint>School of Life Sciences</deliveryPoint>
+        <deliveryPoint>University Park, Nottingham</deliveryPoint>
+        <city>Nottingham</city>
+        <postalCode>NG7 2RD</postalCode>
+        <country>United Kingdom</country>
+      </address>
+      <electronicMailAddress>Francis.Gilbert@nottingham.ac.uk</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-2727-4103</userId>
+    </creator>
+    <creator id="8937658339503545">
+      <individualName>
+        <givenName>Konstantin</givenName>
+        <surName>Gongalsky</surName>
+      </individualName>
+      <organizationName>Russian Academy of Sciences</organizationName>
+      <address>
+        <deliveryPoint>Leninsky pr. 33</deliveryPoint>
+        <city>Moscow</city>
+        <postalCode>119071</postalCode>
+        <country>Russian Federation</country>
+      </address>
+      <electronicMailAddress>kocio@mail.ru</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0003-1600-8448</userId>
+    </creator>
+    <creator id="2344432226975100">
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <surName>Owen</surName>
+      </individualName>
+      <positionName>Deceased</positionName>
+      <address>
+        <deliveryPoint>Scraptoft Lane</deliveryPoint>
+        <city>Leicester</city>
+        <country>United kingdom</country>
+      </address>
+    </creator>
+    <creator id="9631028543714142">
+      <individualName>
+        <givenName>Guy</givenName>
+        <surName>Pe'er</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5A</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>guy.peer@idiv.de</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7090-0560</userId>
+    </creator>
+    <creator id="2941126336867149">
+      <individualName>
+        <givenName>Israel</givenName>
+        <surName>Pe'er</surName>
+      </individualName>
+      <organizationName>GlueCAD Biodiversity IT</organizationName>
+      <address>
+        <deliveryPoint>Hantke 39</deliveryPoint>
+        <city>Haifa</city>
+        <postalCode>3460814</postalCode>
+        <country>Israel</country>
+      </address>
+      <electronicMailAddress>Israel@gluecad.com</electronicMailAddress>
+    </creator>
+    <creator id="9517403370320492">
+      <individualName>
+        <givenName>Vincent H.</givenName>
+        <surName>Resh</surName>
+      </individualName>
+      <organizationName>University of California, Berkeley</organizationName>
+      <address>
+        <city>Berkeley</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>95720-3114</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>resh@berkeley.edu</electronicMailAddress>
+    </creator>
+    <creator id="8638554674939771">
+      <individualName>
+        <givenName>Ilia</givenName>
+        <surName>Rochlin</surName>
+      </individualName>
+      <organizationName>Center for Vector Biology</organizationName>
+      <address>
+        <deliveryPoint>Rutgers University</deliveryPoint>
+        <deliveryPoint>180 Jones Avenue</deliveryPoint>
+        <city>New Brunswick</city>
+        <administrativeArea>New Jersey</administrativeArea>
+        <postalCode>8901</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>ilia.rochlin@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7680-6965</userId>
+    </creator>
+    <creator id="1957581904862099">
+      <individualName>
+        <givenName>Sebastian</givenName>
+        <surName>Schuch</surName>
+      </individualName>
+      <organizationName>Senckenberg Museum für Naturkunde</organizationName>
+      <address>
+        <deliveryPoint>Postfach 300154</deliveryPoint>
+        <city>Görlitz</city>
+        <postalCode>02806</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>sebastian.schuch@senckenberg.de</electronicMailAddress>
+    </creator>
+    <creator id="3129473754848294">
+      <individualName>
+        <givenName>Ann E.</givenName>
+        <surName>Swengel</surName>
+      </individualName>
+      <address>
+        <city>Baraboo</city>
+        <administrativeArea>Wisconsin</administrativeArea>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="5841743790891437">
+      <individualName>
+        <givenName>Scott R.</givenName>
+        <surName>Swengel</surName>
+      </individualName>
+      <address>
+        <city>Baraboo</city>
+        <administrativeArea>Wisconsin</administrativeArea>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="7316123474623978">
+      <individualName>
+        <givenName>Thomas L.</givenName>
+        <surName>Valone</surName>
+      </individualName>
+      <organizationName>Saint Louis University</organizationName>
+      <address>
+        <deliveryPoint>3507 Laclede Ave</deliveryPoint>
+        <city>St. Louis</city>
+        <administrativeArea>Missouri</administrativeArea>
+        <postalCode>63103</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>thomas.valone@slu.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-7657-3126</userId>
+    </creator>
+    <creator id="4166706471254765">
+      <individualName>
+        <givenName>Rikjan</givenName>
+        <surName>Vermeulen</surName>
+      </individualName>
+      <organizationName>WBBS foundation</organizationName>
+      <address>
+        <deliveryPoint>Kanaaldijk 36</deliveryPoint>
+        <city>Loon</city>
+        <postalCode>9409 TV</postalCode>
+        <country>Netherlands</country>
+      </address>
+      <electronicMailAddress>rikjan@biological-station.com</electronicMailAddress>
+    </creator>
+    <creator id="8675910596452968">
+      <individualName>
+        <givenName>Tyson</givenName>
+        <surName>Wepprich</surName>
+      </individualName>
+      <organizationName>Oregon State University</organizationName>
+      <address>
+        <deliveryPoint>2082 Cordley Hall</deliveryPoint>
+        <city>Corvalis</city>
+        <administrativeArea>Oregon</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>tyson.wepprich@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6875-092X</userId>
+    </creator>
+    <creator id="8753768820818944">
+      <individualName>
+        <givenName>Jerome</givenName>
+        <surName>Wiedmann</surName>
+      </individualName>
+      <address>
+        <city>Painesville</city>
+        <administrativeArea>Ohio</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>wiedmannjl@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2020</pubDate>
+    <abstract>
+      <para>This data set under CC-BY license contains time series of total abundance and/or biomass of assemblages of insect, arachnid and Entognatha assemblages (grouped at the family level or higher taxonomic resolution), monitored by standardized means for ten or more years. The data were derived from 166 data sources, representing a total of 1676 sites from 41 countries. The time series for abundance and biomass represent the aggregated number of all individuals of all taxa monitored at each site.</para>
+      <para>The data set consists of four linked tables, representing information on the study level, the plot level, about sampling, and the measured assemblage sizes. all references to the original data sources can be found in the pdf with references, and a Google Earth file (kml) file presents the locations (including metadata) of all datasets.</para>
+      <para>When using (parts of) this data set, please respect the original open access licenses. This data set underlies all analyses performed in the paper 'Meta-analysis reveals declines in terrestrial, but increases in freshwater insect abundances', a meta-analysis of changes in insect assemblage sizes, and is accompanied by a data paper entitled 'InsectChange – a global database of temporal changes in insect and arachnid assemblages'. Consulting the data paper before use is recommended. Tables that can be used to calculate trends of specific taxa and for species richness will be added as they become available.</para>
+      <para>The data set consists of four tables that are linked by the columns 'DataSource_ID'. and 'Plot_ID', and a table with references to original research.</para>
+      <para>In the table 'DataSources', descriptive data is provided at the dataset level: Links are provided to online repositories where the original data can be found, it describes whether the dataset provides data on biomass, abundance or both, the invertebrate group under study, the realm, and describes the location of sampling at different geographic scales (continent to state). This table also contains a reference column. The full reference to the original data is found in the file 'References_to_original_data_sources.pdf'.</para>
+      <para>In the table 'PlotData' more details on each site within each dataset are provided: there is data on the exact location of each plot, whether the plots were experimentally manipulated, and if there was any spatial grouping of sites (column 'Location'). Additionally, this table contains all explanatory variables used for analysis, e.g. climate change variables, land-use variables, protection status.</para>
+      <para>The table 'SampleData' describes the exact source of the data (table X, figure X, etc), the extraction methods, as well as the sampling methods (derived from the original publications). This includes the sampling method, sampling area, sample size, and how the aggregation of samples was done, if reported. Also, any calculations we did on the original data (e.g. reverse log transformations) are detailed here, but more details are provided in the data paper. This table links to the table 'DataSources' by the column 'DataSource_ID'. Note that each datasource may contain multiple entries in the 'SampleData' table if the data were presented in different figures or tables, or if there was any other necessity to split information on sampling details.</para>
+      <para>The table 'InsectAbundanceBiomassData' provides the insect abundance or biomass numbers as analysed in the paper. It contains columns matching to the tables 'DataSources' and 'PlotData', as well as year of sampling, a descriptor of the period within the year of sampling (this was used as a random effect), the unit in which the number is reported (abundance or biomass), and the estimated abundance or biomass. In the column for Number, missing data are included (NA). The years with missing data were added because this was essential for the analysis performed, and retained here because they are easier to remove than to add.</para>
+      <para>Linking the table 'InsectAbundanceBiomassData.csv' with 'PlotData.csv' by column 'Plot_ID', and with 'DataSources.csv' by column 'DataSource_ID' will provide the full dataframe used for all analyses.</para>
+      <para>Detailed explanations of all column headers and terms are available in the ReadMe file, and more details will be available in the forthcoming data paper.</para>
+      <para>WARNING: Because of the disparate sampling methods and various spatial and temporal scales used to collect the original data, this dataset should never be used to test for differences in insect abundance/biomass among locations (i.e. differences in intercept). The data can only be used to study temporal trends, by testing for differences in slopes. The data are standardized within plots to allow the temporal comparison, but not necessarily among plots (even within one dataset).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Insects</keyword>
+      <keyword>Arachnids</keyword>
+      <keyword>Spiders</keyword>
+      <keyword>Long-term</keyword>
+      <keyword>Monitoring</keyword>
+      <keyword>Entognatha</keyword>
+      <keyword>Springtails</keyword>
+      <keyword>Biomass</keyword>
+      <keyword>Abundance</keyword>
+      <keyword>Dynamics</keyword>
+      <keyword>Insect decline</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The data stem from 1676 locations around the globe, with most stemming from Europe and North America</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.4</westBoundingCoordinate>
+          <eastBoundingCoordinate>177.6375</eastBoundingCoordinate>
+          <northBoundingCoordinate>74.46666667</northBoundingCoordinate>
+          <southBoundingCoordinate>-46.389447</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1925</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <generalTaxonomicCoverage>The data concern number of individuals or biomass of assemblages of insects, arachnids and Enthognatha (springtails and related groups). For each location and time point, the data were aggregated over all taxa in these groups at the family level (in one case subfamily level) or higher taxonomic grouping. Whenever possible, other taxa that may have been assessed were excluded (myriapods, crustaceans, worms and mollusks)</generalTaxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Insecta</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Arachnida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Class</taxonRankName>
+          <taxonRankValue>Entognatha</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact id="7734185044568357">
+      <individualName>
+        <givenName>Roel</givenName>
+        <surName>van Klink</surName>
+      </individualName>
+      <organizationName>German Centre for Integrative Biodiversity Research</organizationName>
+      <address>
+        <deliveryPoint>Deutscher Platz 5E</deliveryPoint>
+        <city>Leipzig</city>
+        <postalCode>04103</postalCode>
+        <country>Germany</country>
+      </address>
+      <electronicMailAddress>roel.vanklink@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8125-1463</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>We searched the scientific literature and public data repositories for time-series of freshwater and terrestrial insect assemblages, spanning at least 10 years between the first and last sampling date. We only included time-series that were (i) collected using consistent, standardized methods over time, (ii) were collected at the same site each time, and (iii) were or could be aggregated at the family level or lower (in one case subfamily level) taxonomic resolution to attain a measure of total insect numbers. Total insect numbers were either reported as total biomass or total abundance of any assemblage. Worms, mollusks, crustaceans and myriapods were excluded from datasets whenever possible, to maintain consistency with recent case-studies. Thus, our dataset contains mostly insects and arachnids. We included two datasets with only nine years of data because of the paucity of data from these regions: butterflies in Israel and beetles in Ukraine.</para>
+          <para>The publications were found using Thomson-Reuters Web of Knowledge, using the following search-terms: "insect", "arthropod" and "invertebrate", “beetle*”, “butterfl*”, “moth*”, “*flies”, “bee*”, “grasshopper”, “herbivore”, “pollinator”, “mosquito”, in combination with “biomass”, "abundance", "community dynamics", “temporal”, “trend”, “monitor*” “dynamics”, “long”. This yielded ~5100 titles, which we first scanned by topic and the remaining papers by study duration, taxonomic scope, method consistency and assemblage metrics reported. For the search of literature in Russian, elibrary.ru and Google Scholar were used with the same combinations of keywords. Additionally, we searched for data meeting our criteria in the following data repositories: BioTIME (Dornelas et al. 2018), GPDD (NERC 2010), the LTER repository (www.lternet.edu), Knowledge Network Biocomplexity (https://knb.ecoinformatics.org/), the LTREB database, and the Global Biodiversity Information Facility (www.gbif.org) and VectorBase (Giraldo-Calderón et al. 2015). This yielded 167 studies from which data could be extracted. We extracted time series of insect abundance and / or biomass over time from figures, tables, appendices and linked data repositories. Several authors also provided original data upon our request. A full list of included studies is available in Table S1. To obtain a metric as close as possible to total insect abundance, the abundances or biomass reported for all taxa or functional groups were aggregated at the highest possible taxonomic resolution per reported sampling event, typically family level or higher (order, class or phylum).</para>
+          <para>In all, this dataset contains 166 studies covering 1676 sites in 41 countries. The median time-span is 15 years, ranging between 9 and 81 years, and between 1 and 264 individual plots. In the individual studies, the results per sampling event were reported at temporal scales ranging from daily samples to samples aggregated over 5-year periods. For analysis, we included data at a temporal resolution between weekly and five-yearly values. Hence, when the sampling events were reported within a week, these were summed or averaged, and when data were presented as an average over several years, the mean of these years was used for input. In cases of multiple replicates per site (e.g., multiple soil cores, traps or net sweeps), these were summed, or in case of randomly missing samples, averaged, to produce one value per site per sampling event.</para>
+          <para>Environmental data for each plot were derived from a number of GIS layers:</para>
+          <para>Ecoregions: WWF ecoregions of the world (Olson et al. 2001), grouped into 4 climatic zones: boreal &amp;amp;amp;amp;amp;amp;amp;amp; high alpine, temperate, drylands (Mediterranean climate, deserts and xeric scrublands), and tropical.</para>
+          <para>Protection status World Database on Protected Areas (IUCN and UNEP-WCMC 2018)</para>
+          <para>Land use and land use change at landscape scale: Land-use harmonization (LUH2) database (Hurtt et al. 2018) at 0.25°×0.25° resolution for 1900–2017.</para>
+          <para>Land use at local scale: ESA CCI (ESA 2017) database (900 × 900 m resolution for 1992–2015 for the local scale.</para>
+          <para>Temperature and precipitation change at landscape scale: CRU database (Harris et al. 2014) at 0.5° × 0.5° resolution for 1900-2017, all plots)</para>
+          <para>Temperature and precipitation change at local scale (CHELSA database (Karger et al. 2017) at 1 km2 resolution for 1979-2013, 693 plots).</para>
+          <para>References:</para>
+          <para>Dornelas, M., et al. 2018. BioTIME: A database of biodiversity time series for the Anthropocene. Global Ecology and Biogeography 27:760–786.</para>
+          <para>ESA, Land Cover CCI Product User Guide Version 2.0. Tech. Rep. (2017), (available at http://maps.elie.ucl.ac.be/CCI/viewer/download/ESACCI-LC-Ph2-PUGv2_2.0.pdf).</para>
+          <para>Giraldo-Calderón, G. I., S. J. Emrich, R. M. MacCallum, G. Maslen, S. Emrich, F. Collins, E. Dialynas, P. Topalis, N. Ho, S. Gesing, G. Madey, F. H. Collins, D. Lawson, P. Kersey, J. Allen, M. Christensen, D. Hughes, G. Koscielny, N. Langridge, E. L. Gallego, K. Megy, D. Wilson, B. Gelbart, D. Emmert, S. Russo, P. Zhou, G. Christophides, A. Brockman, I. Kirmitzoglou, B. MacCallum, T. Tiirikka, K. Louis, V. Dritsou, E. Mitraka, M. Werner-Washburn, P. Baker, H. Platero, A. Aguilar, S. Bogol, D. Campbell, R. Carmichael, D. Cieslak, G. Davis, N. Konopinski, J. Nabrzyski, C. Reinking, A. Sheehan, S. Szakonyi, and R. Wieck. 2015. VectorBase: An updated Bioinformatics Resource for invertebrate vectors and other organisms related with human diseases. Nucleic Acids Research 43:D707–D713.</para>
+          <para>IUCN, UNEP-WCMC, “The World Database on Protected Areas (WDPA). December 2018 release.” (Cambridge, 2018), (available at www.protectedplanet.net).</para>
+          <para>Hurtt, G., L. Chini, R. Sahajpal, S. Frolking, Harmonization of global land-use change and management for the period 850-2100. Geosci. Model Dev. (2018), (available at http://luh.umd.edu).</para>
+          <para>Harris, I., P. D. Jones, T. J. Osborn, D. H. Lister, Updated high-resolution grids of monthly climatic observations - the CRU TS3.10 Dataset. Int. J. Climatol. 34, 623–642 (2014).</para>
+          <para>Karger, D. N., O. Conrad, J. Böhner, T. Kawohl, H. Kreft, R. W. Soria-Auza, N. E. Zimmermann, H. P. Linder, M. Kessler, Climatologies at high resolution for the earth’s land surface areas. Sci. Data. 4 (2017), doi:10.1038/sdata.2017.122.</para>
+          <para>NERC Centre for Population Biology Imperial College. 2010. The Global Population Dynamics Database Version 2.</para>
+          <para>Olson, D. M., E. Dinerstein, E. D. Wikramanayake, N. D. Burgess, G. V. N. Powell, E. C. Underwood, J. A. D’amico, I. Itoua, H. E. Strand, J. C. Morrison, C. J. Loucks, T. F. Allnutt, T. H. Ricketts, Y. Kura, J. F. Lamoreux, W. W. Wettengel, P. Hedao, K. R. Kassem, Terrestrial ecoregions of the world: A new map of life on earth. Bioscience. 51, 933–938 (2001).</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Global. This data set consists of long-term monitoring data on insects and related groups, mined from the existing global literature and open repositories</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>See the original publications, as referred to in the reference list.</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <otherEntity id="urn-uuid-82b3f580-abd2-4bb3-b0be-a9e2a34136eb">
+      <entityName>DataSources.csv</entityName>
+      <attributeList>
+        <attribute id="vd2SM77U5cDfaTLifTOIxc4gylxGtm">
+          <attributeName>DataSource_ID</attributeName>
+          <attributeDefinition>Unique identifier for each data source (numerical, 166 entries, not continuous)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="uI2Hv5VPfuubcAHkzh96TqBqwBQt8O">
+          <attributeName>DataSource_name</attributeName>
+          <attributeDefinition>Unique descriptive name for each data source. Used for easy reference of the authors</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Sy5u6kFaDyriyLf7DiTQ0tG9wbWT2V">
+          <attributeName>Realm</attributeName>
+          <attributeLabel>Ecological realm (terrestrial or freshwater)</attributeLabel>
+          <attributeDefinition>Ecological realm in which samples were collected. (factor with 2 levels: 'Terrestrial' and 'Freshwater'). Sampling schemes focusing on taxa that undergo larval development below water, but were sampled as adults in flight (e.g. dragonflies and mosquitoes) were classified as 'Freshwater'.</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Terrestrial</code>
+                    <definition>On land</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Freshwater</code>
+                    <definition>Under water or in the proximity of open water</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="lf0yS3rHmZvC0d6rGNmemzykasExsL">
+          <attributeName>InvertebrateGroup</attributeName>
+          <attributeLabel>Taxon studied</attributeLabel>
+          <attributeDefinition>coarse description of taxon/ taxa studied in data source (factor with 45 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GSrFaPql4EyByF4TgHPoT2427oKTtR">
+          <attributeName>AbundanceOrBiomass</attributeName>
+          <attributeLabel>Sampling metric</attributeLabel>
+          <attributeDefinition>Does the data source provide information on insect biomass (B), abundance (A) or both (AB) (factor with 3 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Abundance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Biomass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AB</code>
+                    <definition>Abundance and Biomass data available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="0XT0TvhKUb80BFuIB0hchd8V6SfQoA">
+          <attributeName>Start</attributeName>
+          <attributeLabel>Start year</attributeLabel>
+          <attributeDefinition>First year of sampling in data source (numeric)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="PXXVIasSSmotLG3XhpVv6LoFJpNJpH">
+          <attributeName>End</attributeName>
+          <attributeLabel>Last year of sampling</attributeLabel>
+          <attributeDefinition>Last year of sampling in data source</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="rM0Oi86P6zdhTCTvni6QbDrJCWxNMd">
+          <attributeName>DurationDataSource</attributeName>
+          <attributeLabel>Time between first and last sample in the data source</attributeLabel>
+          <attributeDefinition>Time between first and last sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="94p0BtCWpyLLOn6XqtTtLxcWq13izT">
+          <attributeName>NrYrsData</attributeName>
+          <attributeLabel>Number of years with data</attributeLabel>
+          <attributeDefinition>Number of unique years in which data was collected.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="TwX444vCTipbDSrRZMzKGgzeg77Drg">
+          <attributeName>NrSites</attributeName>
+          <attributeLabel>Number of sites in data source</attributeLabel>
+          <attributeDefinition>Number of sites studied in data source</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="tFGNvMfJyEJd2hsPIGoU1QDGqSGw44">
+          <attributeName>Continent</attributeName>
+          <attributeLabel>Continent where samples were collected</attributeLabel>
+          <attributeDefinition>Continent where samples were collected (factor with 6 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="9QTusRmfCtVSUES02zbWlw1H2ndGrQ">
+          <attributeName>Region</attributeName>
+          <attributeLabel>Grouping of countries and states into geographical regions</attributeLabel>
+          <attributeDefinition>Arbitrary grouping of countries and states into geographical regions (factor with 27 levels). Grouping was mostly done on data availability. Countries or states providing fewer than 5 datasources were grouped at a higher level</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="AhWNdDTN9XIDeDg0EomiB9elGH50wN">
+          <attributeName>NationState</attributeName>
+          <attributeLabel>Nation state of provenance</attributeLabel>
+          <attributeDefinition>Nation state in which the samples were collected (factor with 42 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Bvt1ivJ9TE7xKn8BsWyufCAqvwLf31">
+          <attributeName>CountryOrState</attributeName>
+          <attributeLabel>Country or state in country</attributeLabel>
+          <attributeDefinition>Geographic unit in which samples were collected. 'State' level is only used in large countries such as Russia, Brazil, Canada and the United States (factor with 102 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="LvqDh4cDVJtJBgRw6viU6yTwDQ4Bne">
+          <attributeName>Link</attributeName>
+          <attributeLabel>URL</attributeLabel>
+          <attributeDefinition>URL linking to raw public datasets (websites were active until at least 2019)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="0kSZs4ZM9l1xUDfQc1KSDLynH3UyM1">
+          <attributeName>Reference</attributeName>
+          <attributeDefinition>reference to original data source. Reference list is found in Table 'References'</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ezWWLChscomQMFN4kIO2QL8e0IBK7x">
+          <attributeName>OpenAccessLicense</attributeName>
+          <attributeDefinition>License for access, use and sharing of the original data source</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PD</code>
+                    <definition>public domain (all data extracted from papers)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OGL</code>
+                    <definition>Open Government License (UK), </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC-BY</code>
+                    <definition>attribution required</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC0</code>
+                    <definition>no attribution required</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC-BY-NC</code>
+                    <definition>Attribution, non commercial use</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC-BY-ND</code>
+                    <definition>attribution, no derived product </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ODC</code>
+                    <definition>Open Data Commons</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no shar</code>
+                    <definition>data openly accessible, but no redistribution</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>private</code>
+                    <definition>data are not publicly accessible</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityType>application/vnd.ms-excel</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-2fc48341-36e5-4b87-b75f-654eebe643f0">
+      <entityName>PlotData.csv</entityName>
+      <entityDescription>details on each site within a dataset: exact location, experimentally manipulated, any spatial grouping of sites, and explanatory variables used for analysis, such as climate change, land-use and protection status.</entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Unique identifier for each site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DataSource_ID</attributeName>
+          <attributeDefinition>unique identifier linking to table 'DataSources'</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PlotName</attributeName>
+          <attributeDefinition>descriptive name of the plot within the data source. Used for easy reference by the authors</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Location</attributeName>
+          <attributeDefinition>Grouping variable in case of groupings of plots within the data source</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DetailsPlots</attributeName>
+          <attributeDefinition>Descriptive names, locations, or details (e.g. plant species sampled), used in the original data source</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ExperimentalTreatment</attributeName>
+          <attributeDefinition>In case of experimental setups the experimental treatment of each plot (e.g. polluted, logged, control, number of plant species in plot, etc)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude (northing) of the site in decimal degrees (WGS84), as precise as provided in the original data source (numerical)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude (easting) of the site in decimal degrees (WGS84), as precise as provided in the original data source</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation</attributeName>
+          <attributeDefinition>Elevation of the site in meters above sea level, if provided</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SourceGeogrData</attributeName>
+          <attributeDefinition>source of the geographic data ('Google maps' indicates that the locality was manually found on the digital map of Google maps)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>StartYear</attributeName>
+          <attributeDefinition>First year of sampling</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EndYear</attributeName>
+          <attributeDefinition>Last year of sampling</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Duration</attributeName>
+          <attributeDefinition>Time between first and last sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WWFecoRegion</attributeName>
+          <attributeDefinition>Original ecoregion according to WWF ecoregions of the world (https://www.worldwildlife.org/biome-categories/terrestrial-ecoregions)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ClimaticZone</attributeName>
+          <attributeDefinition>Climatic zone by grouping of ecoregions: (factor with 4 levels: Boreal/Alpine, Terrestrial, Drylands, Tropical)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Boreal/Alpine</code>
+                    <definition>Ecoregions "Boreal Forests/Taiga", "Tundra", "Montane Grasslands &amp; Shrublands"</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Temperate</code>
+                    <definition>Ecoregions "Temperate Broadleaf &amp; Mixed Forests", "Temperate Conifer Forests", "Temperate Grasslands, Savannas &amp; Shrublands"</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Drylands</code>
+                    <definition>Ecoregions "Mediterranean Forests, Woodlands &amp; Scrub", "Deserts &amp; Xeric Shrublands"</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tropical</code>
+                    <definition>Ecoregions "Tropical &amp; Subtropical Dry Broadleaf Forests", "Tropical &amp; Subtropical Grasslands, Savannas &amp; Shrublands", "Tropical &amp; Subtropical Moist Broadleaf Forests"</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ProtectedArea</attributeName>
+          <attributeDefinition>Protection status of the site following “The World Database on Protected Areas (WDPA). December 2018 release.” (www.protectedplanet.net). No distinction was made between different types or levels of protection</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>protected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>not protected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcCrop_start</attributeName>
+          <attributeLabel>Fraction cropland cover at landscape scale (ca 25 * 25 km) around the sampling point at start of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by crop land in the first year of sampling following the LUH2 database (https://luh.umd.edu/)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcCrop_end</attributeName>
+          <attributeLabel>Fraction cropland cover at landscape scale (ca 25 * 25 km) around the sampling point at end of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by crop land in the last year of sampling following the LUH2 database (https://luh.umd.edu/)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcUrban_start</attributeName>
+          <attributeLabel>Fraction urban cover at landscape scale (ca 25 * 25 km) around the sampling point at start of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by urban land-use in the first year of sampling following the LUH2 database (https://luh.umd.edu/)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcUrban_end</attributeName>
+          <attributeLabel>Fraction urban cover at landscape scale (ca 25 * 25 km) around the sampling point at end of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by urban land-use in the last year of sampling following the LUH2 database (https://luh.umd.edu/)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcForest_start</attributeName>
+          <attributeLabel>Fraction forest cover at landscape scale (ca 25 * 25 km) around the sampling point at start of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by forest in the first year of sampling following the LUH2 database (https://luh.umd.edu/)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcForest_end</attributeName>
+          <attributeLabel>Fraction forest cover at landscape scale (ca 25 * 25 km) around the sampling point at end of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of surrounding landscape (~25*25km) covered by forest in the last year of sampling following the LUH2 database (luh.umd.edu)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Urbanization</attributeName>
+          <attributeLabel>Change in landscape scale urban land cover over sampling period</attributeLabel>
+          <attributeDefinition>Difference in fraction urban land cover between the first and last year of sampling (LUH2 Database)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cropification</attributeName>
+          <attributeLabel>Change in landscape scale crop cover over sampling period</attributeLabel>
+          <attributeDefinition>Difference in fraction crop land cover between the first and last year of sampling (LUH2 Database)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcCrop900m</attributeName>
+          <attributeLabel>fraction local crop cover in 900m*900m around the sampling point at the end of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of the local landscape (900*900m) classified as crop land at the end of the sampling period following the ESA-CCI database. Land use codes classified as cropland were: 10, 11, 12, 30 and 40. Because 30 and 40 represent only partial crop cover, the number of cells with code 30 were multiplied by 0.75 and cells with 40 were multiplied by 0.25. Available only for sites where sampling ended in 1992 or later (n = 1572).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>frcUrban900m</attributeName>
+          <attributeLabel>fraction local urban cover in 900m*900m around the sampling point at the end of the sampling period</attributeLabel>
+          <attributeDefinition>Fraction of the local landscape (900*900m) classified as urban (land use code 190) at the end of the sampling period following the ESA-CCI database. Available only for sites where sampling ended in 1992 or later (n = 1572)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUmnC</attributeName>
+          <attributeLabel>Mean temperature at landscape scale</attributeLabel>
+          <attributeDefinition>Mean temperature (Celsius) at the landscape scale (0.5° * 0.5°) over the sampled period, calculated from the CRU database for the full period</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUmnK</attributeName>
+          <attributeLabel>Mean temperature at landscape scale</attributeLabel>
+          <attributeDefinition>Mean temperature (Kelvin) at the landscape scale (0.5° * 0.5°) over the sampled period (= CRUmnC + 273.16), calculated from the CRU database for the full period</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kelvin</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUdeltaTmean</attributeName>
+          <attributeLabel>Absolute change in mean temperature at landscape scale per decade</attributeLabel>
+          <attributeDefinition>Modeled change in temperature per decade. We used a generalized additive model with a spline on month to derive the slope of temperature change for each site. The model estimate is based only on temperature data within the sampling period.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kelvin</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUrelDeltaTmean</attributeName>
+          <attributeLabel>Relative change in mean temperature at landscape scale per decade</attributeLabel>
+          <attributeDefinition>Relative change in temperature for each site  per decade (= CRUdeltaTmean / CRUmnK)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUmnPrec</attributeName>
+          <attributeLabel>mean monthly precipitation at landscape scale</attributeLabel>
+          <attributeDefinition>Mean monthly precipitation (mm) at the landscape scale (0.5° * 0.5°) over the sampled period, calculated from the CRU database for the full period</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUdeltaPrec</attributeName>
+          <attributeLabel>Absolute change in mean precipitation at landscape scale per decade</attributeLabel>
+          <attributeDefinition>Modeled change in monthly precipitation per decade (mm). We used a generalized additive model with a spline on month to derive the slope of precipitation change for each site. The model estimate is based only on precipitation data within the sampling period.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CRUrelDeltaPrec</attributeName>
+          <attributeLabel>Relative change in mean precipitation at landscape scale per decade</attributeLabel>
+          <attributeDefinition>Relative change in precipitation per decade for each site (= CRUdeltaPrec / CRUmnP)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSAmnC</attributeName>
+          <attributeLabel>Mean temperature (C) at local scale</attributeLabel>
+          <attributeDefinition>Mean temperature (Celsius) at the local scale (1 km2) over the sampled period, calculated from the CHELSA database (= CHELSAmnK – 273.16). Available only for sites where sampling started after 1978 and ended latest in 2013 (n= 693 sites)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSAmnK</attributeName>
+          <attributeLabel>Mean temperature (K) at local scale</attributeLabel>
+          <attributeDefinition>Mean temperature (Kelvin) at the local scale (1 km2) over the sampled period, calculated from the CHELSA database. Available only for sites where sampling started after 1978 and ended latest in 2013 (n= 693 sites)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kelvin</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSAdeltaTmean</attributeName>
+          <attributeLabel>Absolute change in mean temperature at local scale per decade</attributeLabel>
+          <attributeDefinition>Modeled change in temperature per decade. We used a generalized additive model with a spline on month to derive the slope of temperature change for each site. The model estimate is based only on temperature data within the sampling period, and is available only for sites where sampling started after 1978 and ended latest in 2013 (n= 693 sites).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kelvin</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSArelDeltaTmean</attributeName>
+          <attributeLabel>Relative change in mean temperature at local scale per decade</attributeLabel>
+          <attributeDefinition>Relative change in temperature for each site (= CHELSAdeltaTmean / CHELSAmnK)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSAmnPrec</attributeName>
+          <attributeLabel>mean monthly precipitation (mm) at local scale</attributeLabel>
+          <attributeDefinition>Mean monthly precipitation (mm) at the local scale (1 km2) over the sampled period, calculated from the CHELSA database. Available only for sites where sampling started after 1978 and ended latest in 2013 (n= 693 sites).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSAdeltaPrec</attributeName>
+          <attributeLabel>Absolute change in mean precipitation at local scale per decade</attributeLabel>
+          <attributeDefinition>Modeled change in monthly precipitation per decade. We used a generalized additive model with a spline on month to derive the slope of precipitation change for each site. The model estimate is based only on precipitation data within the sampling period, and is available only for sites where sampling started after 1978 and ended latest 2013.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CHELSArelDeltaPrec</attributeName>
+          <attributeLabel>Relative change in mean precipitation at local scale per decade</attributeLabel>
+          <attributeDefinition>Relative change in precipitation for each site (= CHELSAdeltaPrec / CHELSAmnP). Available only for sites where sampling started after 1978 and ended latest 2013 (n= 693 sites).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-71cf3825-91e1-4ca9-8457-b5eefb1514c4">
+      <entityName>SampleData.csv</entityName>
+      <entityDescription>This table provides information on the data extraction and sampling methods used in the various data sources</entityDescription>
+      <attributeList>
+        <attribute id="TBw6iW3fkdEiEtH5yGvLztOQMDJLuX">
+          <attributeName>Sample_ID</attributeName>
+          <attributeDefinition>Unique identifier for each sample description linking to the table 'insectData' (numerical 358 entries)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="fzDsA2CalbdyvdfpM6gxskBU8mOJbT">
+          <attributeName>DataSource_ID</attributeName>
+          <attributeDefinition>Unique identifier linking to table 'DataSources' (numerical 167 entries)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="tfVgeJX9JpyVvTd3BCyfn3WarGX6k6">
+          <attributeName>DataCarrier</attributeName>
+          <attributeLabel>Source of data within the publication</attributeLabel>
+          <attributeDefinition>Source of this part of the data (table or figure number)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="V4SMA2PGnFcPXk4OVTD5buNhlJKAv8">
+          <attributeName>ExtractionMethod</attributeName>
+          <attributeLabel>How the data were extracted from the data source</attributeLabel>
+          <attributeDefinition>software used to extract data from graphs or tables (factor with 4 levels: 'ImageJ', 'Metadigitise', 'pdftoexcel.com', 'values from owner')</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Shrb19RJa44vlZ2BRqRRWN1ekTvsIR">
+          <attributeName>SamplingMethod</attributeName>
+          <attributeDefinition>Method the invertebrates were sampled (as described in the original publication)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="WzMmdxJg2QbuBocdkEeSymk8a0tdMX">
+          <attributeName>Stratum</attributeName>
+          <attributeLabel>vegetation stratum in which the insects were caught</attributeLabel>
+          <attributeDefinition>Place in which the insects were sampled: (factor with 6 levels: 'Air' (transect counts, suction pipes, light traps, malaise traps, window traps and pan traps), 'Trees' (arboreal window traps, visual counts, sticky traps), 'Herb layer' (sweep-net transects, suction sampling, sampling rings, visual counts), 'Soil surface' (pitfall traps, and ant nest counts), 'Underground' (soil cores), or 'Water' (e.g. kicksamplers, Surber samplers, aquatic emergence traps).</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Air</code>
+                    <definition>Methods: transect counts, suction pipes, light traps, malaise traps, window traps and pan traps</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Trees</code>
+                    <definition>Methods: arboreal window traps, visual counts, arboreal sticky traps</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Herb layer</code>
+                    <definition>Methods: sweep-net transects, suction sampling, sampling rings, visual counts</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Soil surface</code>
+                    <definition>Methods: pitfall traps, and ant nest counts</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Underground</code>
+                    <definition>Methods: soil cores</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Water</code>
+                    <definition>Methods: Peterson-, Eckman-, Hess-, Surber-, Apstein samplers, Kicksamplers, suction sampling, T-sampler, sampling baskets, artificial substrate and aquatic emergence traps</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="EJWlGU0pGDD66nhyRN71JVTp8RBJyh">
+          <attributeName>SampleArea</attributeName>
+          <attributeDefinition>Surface area of sample, where applicable. 'NA' indicates that the size of the sampling area is unknown, as is the case for activity dependent methods (such as pitfall traps, light traps and malaise traps)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="srGh4Pf3ZZKIWLHyGcx6NzXCJtw0ZJ">
+          <attributeName>NumberOfReplicates</attributeName>
+          <attributeLabel>Number of replicates within a site</attributeLabel>
+          <attributeDefinition>Number of replicates which constitute one sample. Often not clearly described in the original publication</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="KXsGh67RBTzTVghFn3xnG9qdWN5JPT">
+          <attributeName>AggregationOfReplicates</attributeName>
+          <attributeLabel>how were replicates within the site aggregated?</attributeLabel>
+          <attributeDefinition>How these replicates are merged to produce the reported value. Often not clearly described in the original publication</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5R7Pmds72bm0ZnHDJqBtIyQuo7SkDT">
+          <attributeName>GroupInData</attributeName>
+          <attributeLabel>Invertebrate group represented in the data carrier</attributeLabel>
+          <attributeDefinition>Invertebrate group represented in the data carrier (factor with 87 levels)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="yXG3ElDyuIbuMaJkU6XGXpTxKPTCgg">
+          <attributeName>OriginalMetric</attributeName>
+          <attributeLabel>Metric of assemblage size as reported in the original data carrier</attributeLabel>
+          <attributeDefinition>Metric of assemblage size as reported in the original data carrier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="hF0SOTwKSGBZmviCH51m98wOiBBkCT">
+          <attributeName>Calculations</attributeName>
+          <attributeLabel>any calculations done by us to standardize the data</attributeLabel>
+          <attributeDefinition>Where applicable, any calculations done by us to standardize the data. For example, standardization of sampling effort or inverse log-transformations.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="muw7V3VKVMsOcwVVriRUlN5Q9oREs9">
+          <attributeName>Metric</attributeName>
+          <attributeLabel>metric of assemblage size</attributeLabel>
+          <attributeDefinition>Standardized metric of assemblage size (factor with 3 levels: 'biomass', 'abundance', 'density' = abundance per unit area)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>abundance</code>
+                    <definition>number of individuals</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>biomass</code>
+                    <definition>weight of assemblage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>density</code>
+                    <definition>number of individuals per unit area</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-d5fbebb4-855c-4724-8146-94f8df497480">
+      <entityName>InsectAbundanceBiomassData.csv</entityName>
+      <entityDescription>This table contains the measured insect abundance or biomass at each plot per time step.</entityDescription>
+      <attributeList>
+        <attribute id="BsGeG5z0utWO5kaqrORZpVSs3g1hi3">
+          <attributeName>DataSource_ID</attributeName>
+          <attributeDefinition>Unique identifier linking to table 'DataSources', and to table 'PlotData'</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="JImdk1zr7TrvQ99Gdvq5s3paCGbpwW">
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Unique identifier for site, linking to table 'PlotData'</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="VgtvUozpvITf2CLoOnN9cn8CaWZqsw">
+          <attributeName>MetricAB</attributeName>
+          <attributeLabel>Metric of assemblage size</attributeLabel>
+          <attributeDefinition>Metric of assemblage size: abundance or biomass</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="yUhsH3mWZmRt35BEqIdPzk4oyF3vCR">
+          <attributeName>Period</attributeName>
+          <attributeLabel>within year period as random factor</attributeLabel>
+          <attributeDefinition>Period in the year of sampling. This can be month, season, etc. The finest grain is 'month'. This variable was used as random effect in the analysis to account for seasonality.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any text</definition>
+                  <pattern>*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="iloXmvoFmRSEd4zvJA0Avsp1aO4rn8">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year in which measurement was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="rr2gPnJhTcXI4kWT68ktPvLhahb4sC">
+          <attributeName>Number</attributeName>
+          <attributeDefinition>Value for insect abundance or biomass as measured at a given time and place. NA's are retained in place, as this was required for our INLA analysis. These are easily removed.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="eIsJzXKHFuoS3ahVnRFnc1IWiC3WFk">
+          <attributeName>Stratum</attributeName>
+          <attributeDefinition>Place in which the insects were sampled (soil or vegetation strata). This column is derived from the table SampleData.csv</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Air</code>
+                    <definition>insects sampled in flight (transect counts, suction pipes, light traps, malaise traps, window traps and pan traps), this includes aquatic insects sampled in flight. </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Trees</code>
+                    <definition>Insects collected in or on trees (arboreal window traps, visual counts, sticky traps)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Herb layer</code>
+                    <definition>Insects sampled in the vegetaion of the herb layer (sweep-net transects, suction sampling, sampling rings, visual counts) </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Soil surface </code>
+                    <definition>Insects sampled at the soil surface (pitfall traps, and ant nest counts)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Undergound</code>
+                    <definition>Insects sampled below ground (soil cores)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Water</code>
+                    <definition>Insects sampled under water (e.g. kicksamplers, Surber samplers, aquatic emergence traps) </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <entityType>application/vnd.ms-excel</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-9334fa48-e2bc-40d5-beab-960896cc9736">
+      <entityName>References_to_original_data_sources.pdf</entityName>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-13e63c84-46e1-4054-936b-728936a7c59c">
+      <entityName>ReadMe.docx</entityName>
+      <entityType>application/vnd.openxmlformats-officedocument.wordprocessingml.document</entityType>
+    </otherEntity>
+    <otherEntity id="urn-uuid-1f5b5127-0d77-4d21-b80f-b6823bb56391">
+      <entityName>Google_Earth_locations_of_all_datasets.kml</entityName>
+      <entityDescription>kml file with locations and metadata of all datasets.</entityDescription>
+      <entityType>application/vnd.google-earth.kml+xml</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>1</serialVersion>
+    <identifier>urn:uuid:13e63c84-46e1-4054-936b-728936a7c59c</identifier>
+    <formatId>application/vnd.openxmlformats-officedocument.wordprocessingml.document</formatId>
+    <size>24460</size>
+    <checksum algorithm="MD5">087563bf25c3ea9cbd124fd97af3bbc0</checksum>
+    <submitter>http://orcid.org/0000-0002-8125-1463</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-8125-1463</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>CN=knb-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false"/>
+    <obsoletedBy>urn:uuid:e7bf8fad-51fb-41d7-909d-e846b3208058</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2020-04-06T07:48:09.998+00:00</dateUploaded>
+    <dateSysMetadataModified>2020-10-15T08:32:25.869+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:KNB</originMemberNode>
+    <authoritativeMemberNode>urn:node:KNB</authoritativeMemberNode>
+    <fileName>ReadMe.docx</fileName>
+</ns3:systemMetadata>
