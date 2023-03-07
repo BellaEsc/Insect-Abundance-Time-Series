@@ -36,21 +36,17 @@ head(data2)
 The months are inconsistent and won't work as a time series object, so we will aggregate by year.
 
 ```{r}
+data2 <- na.omit(data2)
 agg_tbl <- data2 %>% group_by(Year) %>% 
   summarise(mean_num=mean(Number),
             .groups = 'drop')
 agg_tbl
 ```
-1987 appears to be an outlier, we will drop it for now.
-
-```{r}
-agg_tbl <- agg_tbl[agg_tbl$Year != 1987,]
-```
 
 Now we can turn it into a time series.
 
 ```{r}
-butterfly_ts <- ts(agg_tbl$mean_num, start = 1988, end = 2017)
+butterfly_ts <- ts(agg_tbl$mean_num, start = 1987, end = 2017)
 plot.ts(butterfly_ts)
 ```
 

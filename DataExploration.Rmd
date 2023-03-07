@@ -1,0 +1,48 @@
+---
+title: "Data Exploration"
+author: "Isabella Escamilla"
+output:
+    html_document:
+      toc: true
+      toc_float: true
+      code_folding: show
+---
+```{r, include=FALSE}
+library(tidyverse)
+```
+## Introduction
+While working with this data set, I noticed a few problems.
+
+* **Scaling**: Since there are so many different data sources, the different scaling of the data sources makes it unreliable if I were to aggregate them by taking averages. A potential solution is to normalize the data from each source and track the changes between years, but I'm not too sure about that approach.
+
+* **Random Months**: In order to fully use the data in this set, I have to find a way to work with the randomness of the months. For example, many of the data sources include random selections of months for each year and it doesn't include every month. I feel like there is a way to still use this data, but I will either have to inpute the in-between months or something. After some online research, I learned that there is a "zoo" object that allows you to have different dates for each observation, and I wonder if I'd be able to use that to fit SARIMA or do spectral analysis.
+
+* **Missing Data**: Again, there are a lot of different sources. Some of these sources have a lot of missing data, and R does not allow me to make a time series object with missing data. This goes along with a previous problem of there being a random selection of months.
+
+```{r}
+dataloc <- './DataSource/data/InsectAbundanceBiomassData.csv'
+data <- read.csv(dataloc)
+summary(data)
+```
+
+```{r}
+data2 <- data %>% filter(DataSource_ID == 1476)
+head(data2, 10)
+```
+
+```{r}
+data3 <- data %>% filter(DataSource_ID == 249)
+head(data3, 10)
+```
+
+```{r}
+data_nona <- na.omit(data)
+agg_tbl <- data_nona %>% group_by(Year) %>% 
+  summarise(mean_num=mean(Number),
+            .groups = 'drop')
+bug_ts <- ts(agg_tbl$mean_num, start=1925, end=2018)
+plot.ts(bug_ts)
+range(agg_tbl$mean_num)
+```
+
+* If I want to aggregate some of the data, a problem to deal with is that the mean varies with which data sources are included. This might be able to be dealt with, but I'm not sure how. 
